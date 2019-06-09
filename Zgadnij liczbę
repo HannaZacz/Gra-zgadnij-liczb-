@@ -1,0 +1,11 @@
+# Napisz prostą grę, w której użytkownik musi zgadnąć liczbę
+# od 0 - 20 ukrytą w programie (np. secret_num = 5).
+# Pytaj użytkownika o podanie liczby tak długo, aż nie zgadnie
+
+secret_num = 17
+user_num = int(input ("Zgadnij liczbę od 0 do 20:"))
+
+while user_num != secret_num:
+  user_num = int(input ("Spróbuj jeszcze raz:"))
+else:
+  print ("Brawo. Zgadłeś")
